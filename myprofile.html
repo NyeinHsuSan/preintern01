@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Profile</title>
+    </head>
+    
+    <style>
+        .container{
+           
+            width: 100%;
+         }
+         .body{
+             width: 100%;
+             font-family: Georgia, 'Times New Roman',serif;
+        }
+        .myimg{
+            margin-top: 30px;
+            margin-left: 20px;
+            display: flex;
+        }
+        .im{
+            border:10px solid darksalmon;
+            border-radius: 50%;
+
+        }
+        .name{
+            font-family:Georgia, 'Times New Roman', Times, serif ;
+            margin-left: 30px;
+            margin-top: 30px;
+            padding: 10px;
+
+        }
+        figcaption{
+            text-align: center;
+            font-size: 18px;
+            
+        }
+        .name p{
+            text-align: justify;
+            font-size: small;}
+            
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-auto-rows: auto;
+            grid-gap: 1em;
+        }
+        .card{
+            border: 2px solid darkorange;
+            border-radius: 5px;
+            padding: 15px;
+        }
+
+       
+        .footer{
+            width: 100%;
+            background-color:darksalmon;
+        }
+        .contact{
+         text-align: center;
+        }
+        a{
+            color:black;
+        }
+        </style>
+    <body>
+        <div class="container">
+            <div class="body">
+                <div class="myimg">
+                    <figure>
+                        <img src="images/my1.jpg" width="200px" height="200px" class="im">
+                        
+                    </figure>
+                    <div class="name">
+                        <h2>About Me</h2>
+                        <p>Hi! I am <span style="font-style: italic;font-weight: bold;">'Nyein Hsu San'</span>.&nbsp;
+                        I'm attending third year CS_A(UCS-Loikaw).I want to become a web developer.Now,I am beginner</p>
+                    </div>
+                    
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <h3>University </h3>
+                        <ul>
+                            <li>University of Computer Studies Loikaw</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Projects</h3>
+                        <ul>
+                            <li>Fit For Life(java)</li>
+                            <li>New Box(java script)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="contact">
+                        <h3>Contact</h3>
+                        
+                        <i class="fa fa-phone"></i>&nbsp;&nbsp;<a href="tel:+95691618921" style="text-decoration: none;">09691618921</a><br>
+                            
+                            
+                        <i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="email:nyeinhsusan.155@gmail.com" style="text-decoration: none;">
+                             nyeinhsusan.155@gmail.com</a><br>
+                        
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.facebook.com/nyein.s.san.754" style="text-decoration: none;">
+                        Nyein</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </body>
+</html>
